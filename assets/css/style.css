@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(125,125,150);
+    --secondary-color: rgb(93, 192, 184);
+    --tri-color: rgb(152, 107, 176);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgba(0,0,0,.8);
+    backdrop-filter: saturate(150%) blur(5px);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 4vw;
+    color:whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    margin: auto 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background:var(--primary-color);
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 15px;
+}
+
+section {
+    padding: 60px;
+}
+
+/* Hero Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+.portfolio {
+    color: var(--primary-color);
+    font-size: 36px;
+    width: 65%;
+}
+/* Hero End */
+
+.section-title {
+    font-size: 25px;
+    color: var(--primary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 50%;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .flex-row p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .flex-row img {
+      width: 32%;
+      height: auto;
+  }
+
+
