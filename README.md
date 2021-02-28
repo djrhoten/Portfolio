@@ -7,7 +7,7 @@ To create a portfolio for potential employers.
 * HTML
 * Advanced CSS
 
-![Portfolio Screenshot](portfolio.jpg);
+![Portfolio Screenshot](portfolio.jpg)
 
 ## Website
 https://djrhoten.github.io/Portfolio/
