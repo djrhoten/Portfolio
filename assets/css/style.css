@@ -150,19 +150,19 @@ section {
 /* Background images for grid-content */
 .run-buddy {
     grid-column: 1 / 4;
-    background-image: url("/assets/images/run-buddy.jpg");
+    background-image: url("../images/run-buddy.jpg");
 }
 
 .led {
-    background-image: url("/assets/images/led-wall.jpg");
+    background-image: url("../images/led-wall.jpg");
 }
 
 .calc {
-    background-image: url("/assets/images/cal.jpg");
+    background-image: url("../images/cal.jpg");
 }
 
 .surf {
-    background-image: url("/assets/images/surf.jpg");
+    background-image: url("../images/surf.jpg");
 }
 
 /* Formatting text area inside flex element */
