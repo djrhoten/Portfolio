@@ -151,8 +151,6 @@ section {
 
 /* Background images for grid-content */
 .run-buddy {
-    grid-column: 1 / 4;
-    grid-row: 1 / 3;
     background-image: url("../images/run-buddy.jpg");
 }
 
@@ -166,6 +164,12 @@ section {
 
 .surf {
     background-image: url("../images/surf.jpg");
+}
+
+.crypto {
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    background-image: url("../images/crypto.jpg");
 }
 
 /* Formatting text area inside flex element */
